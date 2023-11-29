@@ -11,6 +11,7 @@
 		DC6B7F8D2B16D68600938B94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6B7F8C2B16D68600938B94 /* ContentView.swift */; };
 		DC6B7F8F2B16D68800938B94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC6B7F8E2B16D68800938B94 /* Assets.xcassets */; };
 		DC6B7F922B16D68800938B94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC6B7F912B16D68800938B94 /* Preview Assets.xcassets */; };
+		DC6B7F9B2B16E18F00938B94 /* Problem-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6B7F9A2B16E18F00938B94 /* Problem-1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DC6B7F8C2B16D68600938B94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DC6B7F8E2B16D68800938B94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC6B7F912B16D68800938B94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC6B7F9A2B16E18F00938B94 /* Problem-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem-1.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,8 @@
 		DC6B7F892B16D68600938B94 /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				DC6B7F8A2B16D68600938B94 /* LeetcodeApp.swift */,
-				DC6B7F8C2B16D68600938B94 /* ContentView.swift */,
+				DC6B7F982B16E11700938B94 /* App */,
+				DC6B7F992B16E12C00938B94 /* Problems */,
 				DC6B7F8E2B16D68800938B94 /* Assets.xcassets */,
 				DC6B7F902B16D68800938B94 /* Preview Content */,
 			);
@@ -65,6 +67,23 @@
 				DC6B7F912B16D68800938B94 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC6B7F982B16E11700938B94 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DC6B7F8C2B16D68600938B94 /* ContentView.swift */,
+				DC6B7F8A2B16D68600938B94 /* LeetcodeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DC6B7F992B16E12C00938B94 /* Problems */ = {
+			isa = PBXGroup;
+			children = (
+				DC6B7F9A2B16E18F00938B94 /* Problem-1.swift */,
+			);
+			path = Problems;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6B7F9B2B16E18F00938B94 /* Problem-1.swift in Sources */,
 				DC6B7F8D2B16D68600938B94 /* ContentView.swift in Sources */,
 				DC6B7F8B2B16D68600938B94 /* LeetcodeApp.swift in Sources */,
 			);

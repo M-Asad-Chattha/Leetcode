@@ -11,7 +11,7 @@ import SwiftUI
 struct LeetcodeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Problem_1()
         }
     }
 }
